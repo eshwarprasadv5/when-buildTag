@@ -3,10 +3,10 @@ pipeline{
     stages{
         stage('Build'){
             when{
-               buildTag()
+               buildingTag()
             }
             steps{
-                echo 'buildTags() code builded'
+                echo 'buildingTag() code builded'
             }
         }
     }
